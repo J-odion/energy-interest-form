@@ -247,7 +247,7 @@ export default function Component() {
 
       {/* Header - Only show during form steps */}
       {currentStep > 0 && currentStep < 5 && (
-        <div className="bg-white shadow-lg border-b sticky top-0 z-50 relative">
+        <div className="bg-white shadow-lg border-b  top-0 z-50 relative">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
               <Image
